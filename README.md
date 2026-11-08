@@ -17,8 +17,6 @@ Où on en est : la préparation des données (S2) est faite. Il reste les graphi
 - [Filosofi 2023](https://www.insee.fr/fr/statistiques/8984752)
 - [Populations 2023](https://www.insee.fr/fr/statistiques/8680726)
 
-Les fichiers sources ne sont pas dans le dossier du projet, il faut les télécharger et les placer comme ci-dessous.
-
 ## Organisation du dossier
 
 ```
@@ -35,9 +33,8 @@ Les fichiers sources ne sont pas dans le dossier du projet, il faut les téléch
 
 ## Comment l'exécuter
 
-1. Placer les fichiers sources comme dans le schéma.
-2. Ouvrir `preprocessing.ipynb` depuis le dossier `sae/` (les chemins sont relatifs).
-3. Exécuter toutes les cellules dans l'ordre. Le notebook modifie le même tableau `al` d'une étape à l'autre, donc il ne faut pas les lancer dans le désordre.
+1. Ouvrir `preprocessing.ipynb` depuis le dossier `sae/` (les chemins sont relatifs).
+2. Exécuter toutes les cellules dans l'ordre. Le notebook modifie le même tableau `al` d'une étape à l'autre, donc il ne faut pas les lancer dans le désordre.
 
 À la fin, `data/train.csv` et `data/test.csv` sont créés.
 
